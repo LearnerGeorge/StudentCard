@@ -1,0 +1,112 @@
+@CHARSET "UTF-8";
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    position:fixed;
+}
+
+a {
+    text-decoration-line: none;
+    color: #fff;
+}
+
+aside {
+    height: 100%;
+    width: 300px;
+   float:left;
+    background: #243747;
+    transition: width .5s;
+}
+
+aside .first {
+    height: 20px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 35px;
+}
+
+aside .first .logo {
+    color: #243747;
+    font-size: 30px;
+    background: lightcyan;
+    border-radius: 20px;
+    transition: color 2s;
+}
+
+aside .first .logo:hover {
+    color: crimson;
+}
+
+aside ul li {
+    width: 100%;
+    list-style-type: none;
+    padding-top: 5px;
+}
+
+aside ul li a {
+    display: block;
+    padding-left: 20px;
+    text-align: left;
+    color: #fff;
+    transition: color 2s;
+}
+
+aside .listtext {
+    font-size: 30px;
+    display: inline-block;
+}
+
+aside ul li a:hover {
+    color: #000;
+    background: lightblue;
+}
+
+.icon-package {
+    width: 30px;
+    height: 30px;
+}
+
+.btn {
+    border-radius: 5px;
+    border: 0;
+    background: #243747;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    right: -12px;
+    height: 44px;
+    cursor: pointer;
+}
+
+
+/*mini*/
+
+.minibody .listtext {
+    display: none;
+}
+
+.minibody aside {
+    width: 40px;
+    text-align: center;
+    
+}
+
+.minibody aside ul li a {
+    padding-left: 0;
+}
+
+.minibody aside .first .logo {
+    font-size: 12px;
+}
+.contain
+{
+
+}
+.inOneLine{ display:inline} 

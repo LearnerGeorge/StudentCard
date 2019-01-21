@@ -1,0 +1,102 @@
+@CHARSET "UTF-8";
+#container{
+	
+	height:200px;
+	width:100%;
+	float:left;
+	background-color:#E0FFFF;
+}
+
+*{
+padding:0;
+margin:5px;
+}
+img { 
+	float: left;
+	height:180px;
+	 width:180px;
+	}
+#infor{
+	
+	background:#E0FFFF;
+	width:100%;
+	}
+#food_name{
+		
+		background:inherit;
+		padding-top:10px;
+		height:50px;
+		font-size:20px;
+		font-weight:800;
+		text-indent:50px;
+		font-family:KaiTi;
+		font-weight:bold;
+	}
+#food_infor
+{
+	background:inherit;
+	letter-spacing:2px;
+		height:40px;
+		
+		font-size:15px;
+		font-weight:400;
+		font-family:KaiTi;
+		font-weight:bold;
+}
+
+#food_pay
+{height:100%;
+background:inherit;
+float:center;
+}
+#Right{
+
+ position:absolute;
+ left:300px;
+ width:100%;
+ height: 100%; 
+ overflow: auto;
+}
+.price{
+	padding-left:20px;
+}
+.order{
+margin-left:20px;
+}
+
+
+.cart {
+	width: 76px;
+	height: 54px;
+	background: url(./cart.ico);
+	background-size: 100% 100%;
+	position: fixed;
+	right: 90px;
+	bottom: 95px;
+	border-radius: 50%;
+	background-color: red;
+	z-index: 9999;
+	position: absolute;
+}
+
+.CartList {
+	position: fixed;
+	position: absolute;
+	right: 90px;
+	bottom: 120px;
+	overflow: auto;
+	height: 240px;
+	z-index: 20;
+	background-color: pink;
+	width: 180px;
+	display:none;
+}
+#total_m{
+position: fixed;
+	position: absolute;
+	bottom: 1px;
+	z_index:21;
+}
+button{
+	font-face:KaiTi;
+}
